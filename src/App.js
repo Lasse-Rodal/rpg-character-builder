@@ -23,9 +23,9 @@ function App() {
   const [customStats, setCustomStats] = useState({ str: 0, dex: 0, int: 0, cha: 0 });
 
   function getImagePath(race, charClass) {
-    const key = `${race.toLowerCase()}_${charClass.toLowerCase()}`.replace(/\s+/g, '_');
-    return `/images/${key}.png`;
-  }
+  const key = `${race.toLowerCase()}_${charClass.toLowerCase()}`.replace(/\s+/g, '_');
+  return process.env.PUBLIC_URL + `/images/${key}.png`;
+}
 
   function getTotalStat(stat) {
     const base = baseStatsByRace[race][stat];
@@ -83,7 +83,7 @@ function App() {
           alt="Character"
           className="character-img"
           onError={(e) => {
-            e.target.src = '/images/default.png';
+            e.target.src = process.env.PUBLIC_URL + '/images/default.png';
           }}
         />
 
