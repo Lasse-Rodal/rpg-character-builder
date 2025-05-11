@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/rpg-character-builder/static/css/main.fc8ec7c9.css",
-    "main.js": "/rpg-character-builder/static/js/main.6b8133cc.js",
+    "main.js": "/rpg-character-builder/static/js/main.ba87f2b9.js",
     "static/js/453.4b18fe1e.chunk.js": "/rpg-character-builder/static/js/453.4b18fe1e.chunk.js",
     "static/media/parchment.png": "/rpg-character-builder/static/media/parchment.7833409ea37305315d0f.png",
     "index.html": "/rpg-character-builder/index.html",
     "main.fc8ec7c9.css.map": "/rpg-character-builder/static/css/main.fc8ec7c9.css.map",
-    "main.6b8133cc.js.map": "/rpg-character-builder/static/js/main.6b8133cc.js.map",
+    "main.ba87f2b9.js.map": "/rpg-character-builder/static/js/main.ba87f2b9.js.map",
     "453.4b18fe1e.chunk.js.map": "/rpg-character-builder/static/js/453.4b18fe1e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc8ec7c9.css",
-    "static/js/main.6b8133cc.js"
+    "static/js/main.ba87f2b9.js"
   ]
 }
