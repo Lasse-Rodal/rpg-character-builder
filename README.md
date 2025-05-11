@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# RPG Character Builder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fantasy-themed character creator app built with React. Choose race and class, assign a name, view a pixel-art avatar, and customize the character's base stats. Built to resemble a parchment-style RPG sheet.
 
-## Available Scripts
+Users can:
+- Select a race and class for their character
+- Assign a name and preview a matching fantasy avatar
+- View stats that change based on class and race
+- Allocate extra stat points manually via interactive UI
 
-In the project directory, you can run:
+![Badge](https://img.shields.io/badge/made%20with-🧙%20React%20JS-61dafb?logo=react)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My Process](#my-process)
+  - [Built With](#built-with)
+  - [What I Learned](#what-i-learned)
+- [Credits](#credits)
+- [Author](#author)
+- [Next Steps](#next-steps)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Overview
 
-### `npm run build`
+### Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Preview of the character builder app:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="./public/media/rpg_demo.gif" alt="RPG Character Builder Demo" width="600"/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### Links
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [GitHub Repo](https://github.com/Lasse-Rodal/rpg-character-builder)
+- [Live Demo](https://lasse-rodal.github.io/rpg-character-builder)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## My Process
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Built With
 
-## Learn More
+- **React**
+  - State management with `useState`
+  - Conditional rendering and component logic
+- **Custom CSS**
+  - Fantasy-inspired parchment background
+  - Font Awesome icons for class and stat presentation
+- **Pixel Art Character Sprites**
+  - Image paths tied to class/race selection
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### What I Learned
 
-### Code Splitting
+In this project, I practiced:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Using `useState` for layered state like race, class, stats, and points
+- Dynamically changing UI content and images based on selections
+- Styling React apps without Tailwind to achieve a thematic fantasy look
+- Managing reusable base stats and class modifiers
+- Displaying icons conditionally based on available points
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Credits
 
-### Making a Progressive Web App
+### Art & Design
+- Pixel art character sprites generated via AI
+- Fantasy parchment texture generated via AI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Icons
+- [Font Awesome](https://fontawesome.com/) for RPG-themed stat icons
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Author
 
-### Deployment
+- GitHub – [Lasse Rodal Pedersen](https://github.com/Lasse-Rodal)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## Next Steps
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Future improvements and features for the RPG Character Builder:
+
+- [ ] **Export to PDF** – Let users download a printable version of their character sheet
+- [ ] **Character Backstory Input** – Add a text area for users to write and save character lore
+- [ ] **Save to Local Storage** – Persist characters between sessions
+- [ ] **Class-specific Perks or Skills** – Show unique traits or bonuses for each class
+- [ ] **Dark Mode Toggle** – Fantasy-styled dark parchment theme
+- [ ] **More Races & Classes** – Expand with new fantasy options like Dwarf, Demon, Paladin, etc.
+- [ ] **Shareable Link or Code** – Generate a shareable link or code for character builds
